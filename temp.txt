@@ -1,0 +1,88 @@
+
+        //   $query = "SELECT * FROM users WHERE (useruid='$userInfo' OR email='$userInfo') AND pass='$userPass '";
+        // //   $result = mysqli_query($con, $query);
+        // //   $row = mysqli_num_rows($result);
+
+        // // //  $passwordhash = $row["pass"];
+        // // //  $checkpass = password_verify($userPass, $passwordhash);
+
+        // //   if ($row > 0 && $checkpass === true) {
+        // //     $_SESSION['userInfo'] = $userInfo;
+        // //     header('Location:index.php');
+        // //   } else {
+        // //     echo "<div class='alert alert-danger'>" . "البيانات غير متطابقة الرجاء المحاولة مرة أخرى" . "</div>";
+        // //   }
+
+
+
+        //   $result = $con->query($query);
+
+        //   if ($result->num_rows > 0) {
+        //     // output data of each row
+        //     if($row = $result->fetch_assoc()) {
+        //       $passwordhash = $row["pass"];
+        //       $checkpass = password_verify($userPass, $passwordhash);
+
+              
+      
+        //   if ($checkpass === false) {
+        //     echo "<div class='alert alert-danger'>" . "البيانات غير متطابقة الرجاء المحاولة مرة أخرى" . "</div>";
+        //    } else if ($checkpass === true) {
+        //       session_start();
+        //       $_SESSION['userInfo'] = $row["useruid"];
+        //      // $_SESSION['useruid'] = $uidexist["useruid"];
+        //       header("location:../index.php?message=success");
+        //       exit();
+        //     }
+ 
+        //     }
+        //   } else {
+        //     echo "0 results";
+        //   }
+
+
+        //   $con->close();
+        //   // $sql = "SELECT * FROM users WHERE useruid = ?;";
+        //   // $stmt = mysqli_stmt_init($con);
+        //   // if (!mysqli_stmt_prepare($stmt, $sql)) {
+        //   //   header("location:../signup.php?error=stmtfaild");
+        //   //   echo mysqli_stmt_error($stmt);
+        //   //   exit();
+        //   // }
+        //   // mysqli_stmt_bind_param($stmt, "s", $userInfo);
+        //   // mysqli_stmt_execute($stmt);
+        //   // $resultdata = mysqli_stmt_get_result($stmt);
+        //   // if ($row = mysqli_fetch_assoc($resultdata)) {
+        //   //   return $row;
+        //   // } else {
+        //   //   $result = false;
+        //   //   return $result;
+        //   //   mysqli_stmt_close($stmt);
+        //   // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //   // //-------------------
+        //   // $passwordhash = $row["pass"];
+        //   // $checkpass = password_verify($userPass, $passwordhash);
+        //   // //---------------------
+        //   // if ($checkpass === false) {
+        //   //   echo "<div class='alert alert-danger'>" . "البيانات غير متطابقة الرجاء المحاولة مرة أخرى" . "</div>";
+        //   // } else if ($checkpass === true) {
+        //   //   session_start();
+        //   //   $_SESSION['userid'] = $row["useruid"];
+        //   //   //$_SESSION['useruid'] = $uidexist["useruid"];
+        //   //   header("location:../index.php?message=success");
+        //   //   exit();
+        //   // }
